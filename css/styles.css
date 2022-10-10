@@ -4,6 +4,7 @@
   --header-color: #212121;
   --background-color: #ffffff;
   --background-btn: ##F5F4FA;
+  --background-section: #2f303a;
 }
 
 body {
@@ -60,6 +61,9 @@ color: inherit;
 .black-logo {
   color: var(--header-color);
 }
+.white-logo{
+  color: var(--background-color);
+}
 address {
   font-style: normal;
 }
@@ -93,9 +97,9 @@ ul {
   letter-spacing: 0.06em;
   color: var(--background-color);
 }
-/* .hero {
-  background-color: #2f303a;
-} */
+.hero, footer {
+  background-color: var(--background-section);
+}
 .btn-hero {
   font-family: inherit;
   font-weight: 700;
