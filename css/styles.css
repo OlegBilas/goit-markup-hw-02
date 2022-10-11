@@ -8,8 +8,9 @@
 }
 
 body {
-  /* font-family: 'Raleway', sans-serif; */
   font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.03em;
   color: var(--main-color);
   background-color: var(--background-color);
 }
@@ -17,7 +18,7 @@ body {
 .link {
   text-decoration: none;
   font-weight: 500;
-  font-size: 14px;
+  font-size: inherit;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--header-color);
@@ -29,16 +30,14 @@ color: inherit;
 
 .link.foot-adress {
   font-weight: inherit;
-  font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
+  letter-spacing: inherit;
   color: var(--background-color);
 }
 .link.foot-contacts{
-      font-weight: inherit;
-        font-size: 14px;
-        line-height: 1.71;
-        letter-spacing: 0.03em;
+  font-weight: inherit;
+  line-height: 1.71;
+  letter-spacing: inherit;
  color: rgba(255, 255, 255, 0.6);
 }
 
@@ -53,7 +52,7 @@ color: inherit;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  letter-spacing: 0.03em;
+  letter-spacing: inherit;
 }
 .blue-logo {
   color: var(--accent-color);
@@ -77,7 +76,7 @@ ul {
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
-  letter-spacing: 0.03em;
+  letter-spacing: inherit;
   color: var(--header-color);
   background-color: var(--background-btn);
   border-radius: 4px;
@@ -110,35 +109,31 @@ ul {
   text-align: center;
   letter-spacing: 0.06em;
   color: var(--background-color);
-    background-color: var(--accent-color);
+  background-color: var(--accent-color);
 }
 .btn-hero:active,
 .btn-hero:hover,
 .btn-hero:focus {
-    background: #188CE8;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
+  background: #188CE8;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
   cursor: pointer;
 
 }
 .peculiarities h3 {
+  font-size: inherit;
   font-weight: 700;
-  font-size: 14px;
   line-height: 1.14;
-  letter-spacing: 0.03em;
   color: var(--header-color);
 }
 .peculiarities p {
-  font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
 }
 .title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
-  letter-spacing: 0.03em;
   color: var(--header-color);
 }
 .our-team h3 {
@@ -146,14 +141,12 @@ ul {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
-  letter-spacing: 0.03em;
   color: var(--header-color);
 }
 .our-team p {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
-  letter-spacing: 0.03em;
 }
 /* Portfolio */
 .title-portfolio {
@@ -166,5 +159,4 @@ ul {
 .text-portfolio {
   font-size: 16px;
   line-height: 1.88;
-  letter-spacing: 0.03em;
 }
